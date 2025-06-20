@@ -5,17 +5,16 @@
   justify-content: space-around;
   align-items: center;
   padding: 1rem;
-    background-color: $color-white;
+  background-color: $color-white;
   color: $color-white;
   font-family: "Goldman", sans-serif;
   position: fixed;
   width: 100%;
   height: 80px;
-  border: 1px solid red;
-//   max-width: 1440px;
-//   margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10;
 
-  .logo{
+  .logo {
     width: 280px;
     height: auto;
   }
@@ -40,17 +39,16 @@
           display: block;
           width: 0%;
           height: 2px;
-          background-color: $color-blue;
+          background-color: darken($color-blue, 10%);
           transition: all 0.4s ease-in-out;
         }
 
         &:hover {
-          color: $color-blue;
+          color: darken($color-blue, 10%);
 
           &::after {
             width: 100%;
           }
-
         }
       }
     }
@@ -70,7 +68,7 @@
 
     &:hover {
       scale: 0.96;
-    //   background-color: $color-gray;
+      background-color: darken($color-blue, 10%);
       box-shadow: 2px 2px 6px #000000e0;
     }
   }
