@@ -1,0 +1,52 @@
+@use "../../styles/variables.scss" as *;
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 255px;
+  height: auto;
+  padding: 16px;
+  border-radius: 8px;
+  cursor: default;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  .feature__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    height: auto;
+
+    h3 {
+      font-size: 18px;
+      font-weight: 400;
+      color: $color-black;
+      margin: 8px 0px;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 200;
+      color: $color-gray;
+    }
+  }
+
+  .feature__icon {
+    width: 48px;
+    height: auto;
+
+    &:first-child {
+        height: 48px;
+        width: auto;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 8px 20px $color-black;
+    transform: translateY(-8px);
+  }
+}
