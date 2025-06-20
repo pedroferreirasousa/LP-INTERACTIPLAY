@@ -1,0 +1,28 @@
+@use "../../../styles/variables" as *;
+
+.section {
+  background-color: $color-blue;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Goldman", sans-serif;
+  padding: 32px 0px;
+
+  h1 {
+    color: $color-white;
+  }
+
+  .cards__container {
+    margin-top: 24px;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

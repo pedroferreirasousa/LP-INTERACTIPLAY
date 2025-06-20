@@ -1,0 +1,57 @@
+@use "../../styles/variables.scss" as *;
+
+.card {
+  background-color: $color-white;
+  border: 1px solid $color-gray;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 280px;
+  min-height: 200px;
+  transition: transform 0.2s ease-in-out;
+  cursor: grab;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px $color-black;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  &__image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__name {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: $color-gray;
+    margin: 0;
+    width: 100px;
+  }
+
+  &__text {
+    font-size: 0.95em;
+    color: $color-gray;
+    line-height: 1.6;
+    flex-grow: 1;
+    margin-top: 8px;
+  }
+}
