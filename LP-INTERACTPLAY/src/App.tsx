@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import Highlights from "./components/Sections/Highlights";
 import Home from "./components/Sections/Home";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Home />
+      <Highlights />
     </>
   );
 }
