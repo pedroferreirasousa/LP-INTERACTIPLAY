@@ -3,7 +3,7 @@ import SvgSeta from "../../../../public/media/icons/tail-right.svg";
 import Hero from "../../../../public/media/images/hero.png";
 import Features from "../../Features";
 import AnimatedCounter from "../../AnimatedCounter";
-import { metricsData } from '../../../data/metrics'; 
+import { metricsData } from "../../../data/metrics";
 
 const DataFeatures = [
   {
@@ -40,6 +40,11 @@ const Home = () => {
       </a>
       <img src={Hero} alt="hero" className={styles.hero} />
 
+      <a className={styles.button__mobile} href="#">
+        Experimente por 30 dias{" "}
+        <img src={SvgSeta} alt="seta para direita" className={styles.arrow} />
+      </a>
+
       <div className={styles.features__container}>
         {DataFeatures.map((item, index) => (
           <Features key={index} {...item} />
@@ -54,7 +59,7 @@ const Home = () => {
             type={metric.type}
             label={metric.label}
             prefix={metric.prefix}
-            duration={2} 
+            duration={2}
           />
         ))}
       </div>
