@@ -30,16 +30,4 @@ export const testimonials: Testimonial[] = [
     name: "Pedro Ferreira",
     text: "Recursos avançados e facilidade. Aumentou minhas taxas de conversão. Solução completa para marketing digital!",
   },
-  {
-    id: "5",
-    image: "/media/images/testimonyprofile2.png",
-    name: "Pedro Ferreira",
-    text: "Recursos avançados e facilidade. Aumentou minhas taxas de conversão. Solução completa para marketing digital!",
-  },
-  {
-    id: "6",
-    image: "/media/images/testimonyprofile2.png",
-    name: "Pedro Ferreira",
-    text: "Recursos avançados e facilidade. Aumentou minhas taxas de conversão. Solução completa para marketing digital!",
-  },
 ];

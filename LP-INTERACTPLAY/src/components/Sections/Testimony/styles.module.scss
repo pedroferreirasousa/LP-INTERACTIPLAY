@@ -17,9 +17,11 @@
 
   .cards__container {
     margin-top: 24px;
-    width: 100%;
+    width: auto;
+    max-width: 100vw;
     display: flex;
     overflow: auto;
+    
 
     &::-webkit-scrollbar {
       display: none;
