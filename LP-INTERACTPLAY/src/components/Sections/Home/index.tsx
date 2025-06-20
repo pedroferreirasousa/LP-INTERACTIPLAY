@@ -1,6 +1,6 @@
 import styles from "./styles.module.scss";
-import SvgSeta from "/media/icons/tail-right.svg";
-import Hero from "/media/images/hero.png";
+// import SvgSeta from "/media/icons/tail-right.svg";
+// import Hero from "/media/images/hero.png";
 import Features from "../../Features";
 import AnimatedCounter from "../../AnimatedCounter";
 import { metricsData } from "../../../data/metrics";
@@ -10,19 +10,19 @@ const DataFeatures = [
     title: "Interface Intuitiva",
     description:
       "Edição eficiente, acessível a iniciantes, sem necessidade de habilidades técnicas avançadas.",
-    icon: "../../../public/media/icons/feature1.png",
+    icon: "/media/icons/feature1.png",
   },
   {
     title: "Recursos Avançados",
     description:
       "Usabilidade simples e vasta gama de recursos avançados para criar vídeos profissionais e criativos.",
-    icon: "../../../public/media/icons/feature2.png",
+    icon: "/media/icons/feature2.png",
   },
   {
     title: "Renderização Rápida",
     description:
       "Renderização rápida e eficiente permitindo compartilhamento instantanêo.",
-    icon: "../../../public/media/icons/feature3.png",
+    icon: "/media/icons/feature3.png",
   },
 ];
 
@@ -36,13 +36,13 @@ const Home = () => {
       </h2>
       <a href="#">
         Experimente por 30 dias{" "}
-        <img src={SvgSeta} alt="seta para direita" className={styles.arrow} />
+        <img src="/media/icons/tail-right.svg" alt="seta para direita" className={styles.arrow} />
       </a>
-      <img src={Hero} alt="hero" className={styles.hero} />
+      <img src="/media/images/hero.png" alt="hero" className={styles.hero} />
 
       <a className={styles.button__mobile} href="#">
         Experimente por 30 dias{" "}
-        <img src={SvgSeta} alt="seta para direita" className={styles.arrow} />
+        <img src="/media/icons/tail-right.svg" alt="seta para direita" className={styles.arrow} />
       </a>
 
       <div className={styles.features__container}>
