@@ -1,6 +1,4 @@
 import styles from "./styles.module.scss";
-// import SvgSeta from "/media/icons/tail-right.svg";
-// import Hero from "/media/images/hero.png";
 import Features from "../../Features";
 import AnimatedCounter from "../../AnimatedCounter";
 import { metricsData } from "../../../data/metrics";
