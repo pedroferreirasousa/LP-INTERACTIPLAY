@@ -50,7 +50,7 @@ const Highlights = () => {
   }, []);
   return (
     <div className={styles.section}>
-      <h2 className={styles.title__section}>Explore as Funcionalidades Poderosas da InteractPlay</h2>
+      <h2 className={styles.title__section}>Explore as Funcionalidades Poderosas da InteractiPlay</h2>
       <p className={styles.description__section}>Descubra como nossa plataforma simplifica a edição de vídeo e oferece recursos avançados para resultados profissionais.</p>
       <div className={styles.containerHighlights}>
         {highlightsData.map((item, index) => (
