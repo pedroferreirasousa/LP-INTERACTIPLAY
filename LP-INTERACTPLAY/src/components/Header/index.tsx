@@ -8,17 +8,17 @@ const Header = () => {
       <img src={logo} className={styles.logo} alt="Logo" />
       <ul className={styles.nav}>
         <li>
-          <a href="#">Início</a>
+          <a href="#home">Início</a>
         </li>
         <li>
-          <a href="#">Funcionalidades</a>
+          <a href="#highlights">Funcionalidades</a>
         </li>
         <li>
-          <a href="#">Depoimentos</a>
+          <a href="#testimony">Depoimentos</a>
         </li>
 
         <li>
-          <a href="#">Contato</a>
+          <a href="#contact">Contato</a>
         </li>
       </ul>
       <MobileMenu />  

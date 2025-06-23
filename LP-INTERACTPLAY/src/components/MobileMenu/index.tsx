@@ -26,13 +26,13 @@ const MobileMenu = () => {
         <a href="#home" onClick={closeMenu}>
           Início
         </a>
-        <a href="#about" onClick={closeMenu}>
+        <a href="#highlights" onClick={closeMenu}>
           Funcionalidades
         </a>
-        <a href="#skills" onClick={closeMenu}>
+        <a href="#testimony" onClick={closeMenu}>
           Depoimentos
         </a>
-        <a href="#projects" onClick={closeMenu}>
+        <a href="#contact" onClick={closeMenu}>
           Contato
         </a>
 

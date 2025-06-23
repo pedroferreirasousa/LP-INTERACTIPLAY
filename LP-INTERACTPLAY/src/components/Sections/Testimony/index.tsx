@@ -7,7 +7,7 @@ import TestimonyCard from "../../TestimonyCard";
 
 const Testimony = () => {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="testimony">
         <h1>Ouça nossos clientes!</h1>
 
         <div className={styles.cards__container}>
