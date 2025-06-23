@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
       </div>
       <div className={styles.footer_copyright}>
         <p>&copy;InteractPlay - Todos os direitos reservados</p>
-        <span>Desenvolvido por <a href="https://pedroferreirasousa.vercel.app/">Pedro Ferreira</a></span>
+        <span>Desenvolvido por <a target='_blank' href="https://pedroferreirasousa.vercel.app/">Pedro Ferreira</a></span>
       </div>
     </footer>
   );
