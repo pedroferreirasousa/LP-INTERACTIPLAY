@@ -1,6 +1,6 @@
 # INTERACTIPLAY
 
-![Capa do Projeto ](./public/media/images/share-image-final.png)
+![Capa do Projeto ](./LP-INTERACTPLAY/public/media/images/share-image-final.png)
 
 ## 🌟 Visão Geral
 
