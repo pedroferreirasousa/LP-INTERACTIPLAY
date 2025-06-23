@@ -1,0 +1,100 @@
+@use "../../styles/variables.scss" as *;
+
+.nav__mobile {
+  display: none;
+  z-index: 20;
+
+  @media (max-width: 922px) {
+    display: flex;
+    align-items: center;
+  }
+
+  .iconMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 20;
+
+    div {
+      height: 3px;
+      background-color: $color-blue;
+      border-radius: 5px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    &.open div:nth-child(1) {
+      transform: translateY(11px) rotate(45deg);
+      background-color: $color-white;
+    }
+
+    &.open div:nth-child(2) {
+      opacity: 0;
+    }
+
+    &.open div:nth-child(3) {
+      transform: translateY(-11px) rotate(-45deg);
+      background-color: $color-white;
+    }
+  }
+
+  .menulist {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: $color-blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+
+    &.open {
+      transform: translateX(0);
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $color-white;
+      font-size: 18px;
+      text-decoration: none;
+      width: 100%;
+      height: 10vh;
+
+      &:hover {
+        color: $color-blue;
+        background-color: $color-blue;
+      }
+    }
+
+    .button {
+      border: none;
+      background-color: $color-white;
+      color: $color-blue;
+      font-family: "Goldman", sans-serif;
+      width: 140px;
+      height: 45px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      font-weight: 700;
+      margin-top: 48px;
+
+
+      &:hover {
+        scale: 0.96;
+        background-color: darken($color-blue, 10%);
+        box-shadow: 2px 2px 6px #000000e0;
+      }
+    }
+  }
+}

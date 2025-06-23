@@ -1,5 +1,6 @@
 import styles from "./styles.module.scss";
 import logo from "../../../public/media/images/logo_svg.svg";
+import MobileMenu from "../MobileMenu";
 
 const Header = () => {
   return (
@@ -20,6 +21,8 @@ const Header = () => {
           <a href="#">Contato</a>
         </li>
       </ul>
+      <MobileMenu />  
+      
       <button className={styles.button}>Login</button>
     </header>
   );
