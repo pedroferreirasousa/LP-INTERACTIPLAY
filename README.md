@@ -1,5 +1,6 @@
 # INTERACTIPLAY
 
+![Capa do Projeto](./readmelmage.png) 
 
 ## 🌟 Visão Geral
 
