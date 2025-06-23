@@ -4,6 +4,7 @@ import Contact from "./components/Sections/Contact";
 import Highlights from "./components/Sections/Highlights";
 import Home from "./components/Sections/Home";
 import Testimony from "./components/Sections/Testimony";
+import Footer from "./components/Sections/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Highlights />
       <Testimony />
       <Contact />
+      <Footer />
     </>
   );
 }
