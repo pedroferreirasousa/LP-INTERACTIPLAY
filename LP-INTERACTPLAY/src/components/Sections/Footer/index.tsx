@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
       <div className={styles.footer_content_wrapper}>
         <div className={styles.footer_brand}>
           <div className={styles.footer_logo}>
-            <img src="../../../../public/media/images/logofooter_svg.svg" alt="Logo" />
+            <img src="https://lp-interactiplay.vercel.app/media/images/logofooter_svg.svg" alt="Logo" />
           </div>
           <p className={styles.footer_description}>
             Plataforma intuitiva para edição de vídeos para vendas.
