@@ -1,6 +1,5 @@
 # INTERACTIPLAY
 
-![Capa do Projeto ](./LP-INTERACTPLAY/public/media/images/share-image-final.png)
 
 ## 🌟 Visão Geral
 
