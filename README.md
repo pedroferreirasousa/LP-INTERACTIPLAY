@@ -1,6 +1,6 @@
 # INTERACTIPLAY
 
-![Capa do Projeto](./readmelmage.png) 
+![Capa do Projeto](https://lp-interactiplay.vercel.app/media/images/readme-image.png) 
 
 ## 🌟 Visão Geral
 
